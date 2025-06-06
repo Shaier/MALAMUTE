@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ## 📂 Prepare the Data
 Unzip the dataset and remove any extraneous files:
 ```bash
-unzip -o data.zip -d data && rm data.zip && [ -d data/__MACOSX ] && rm -rf data/__MACOSX
+% rm -rf data && unzip -o data.zip -d data && rm data.zip
 ```
 ---
 ## 🧪 Running Evaluations
