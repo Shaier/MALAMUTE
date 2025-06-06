@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ## 📂 Prepare the Data
 Unzip the dataset and remove any extraneous files:
 ```bash
-% rm -rf data && unzip -o data.zip -d data && rm data.zip
+rm -rf data && unzip -o data.zip -d data && rm data.zip
 ```
 ---
 ## 🧪 Running Evaluations
@@ -42,3 +42,17 @@ To evaluate using CLMs (e.g., GPT-style models):
 python test_CLM.py
 ```
 ---
+
+### Citation
+
+If you use this code or dataset, please cite us:
+
+@misc{shaier2025malamutemultilingualhighlygranulartemplatefree,
+  title     = {MALAMUTE: A Multilingual, Highly-granular, Template-free, Education-based Probing Dataset},
+  author    = {Sagi Shaier and George Arthur Baker and Chiranthan Sridhar and Lawrence E Hunter and Katharina von der Wense},
+  year      = {2025},
+  eprint    = {2412.10105},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url       = {https://arxiv.org/abs/2412.10105}
+}
