@@ -54,5 +54,5 @@ If you use this code or dataset, please cite us:
       eprint={2412.10105},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2412.10105}, 
+      url=https://arxiv.org/abs/2412.10105 
 }
