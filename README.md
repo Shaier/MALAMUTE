@@ -39,7 +39,7 @@ python test_MLM.py
 ### Causal Language Models (CLMs)
 To evaluate using CLMs (e.g., GPT-style models):
 ```bash
-python test_CLM.py
+See notebooks repo
 ```
 ---
 
